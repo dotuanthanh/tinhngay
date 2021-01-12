@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tinh so ngay</title>
+</head>
+<body>
+<input id="input"  />
+<input onclick="count()" type="button" value="click">
+<p id="hienthi"></p>
+</body>
+</html>
+<script>
+
+
+  function count(){
+    let result= parseInt(document.getElementById('input').value)
+    let a;
+    switch (result) {
+      case 1 :
+        a = 31;
+        break;
+
+      case 2 :a= 29
+        alert(a)
+        break;
+      case 3 : a= 30
+        break;
+      case 4 :a=30
+        break;
+      case 5 :a= 31
+        break;
+      case 6 : a=30
+        break;
+      case 7 : a=31
+        break;
+      case 8 :a= 30
+        break;
+      case 9 : a=31
+        break;
+      case 10 : a=30
+        break;
+      case 11 : a=31
+        break;
+      case 12 : a=30
+    }
+   document.getElementById('hienthi').innerHTML = a;
+
+  }
+</script>
